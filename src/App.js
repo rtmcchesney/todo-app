@@ -67,11 +67,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>ToDo List</h1>
+        <h1>To-Do List</h1>
         <form onSubmit={this.addTodo}>
           <input
             type="text"
-            placeholder="Add ToDo"
+            placeholder="Add To-Do"
             value={this.state.todo}
             onChange={this.handleChange}
           />
